@@ -114,5 +114,15 @@ Draw two datasets:
 
 Perform trainings on the train dataset for degrees $1\dots8$ and store the training coefficients
 
+## Wait a minute!
+
+You might have heard that in Deep Learning people use models with many more parameters than data points. How can this work
+when this discussion of of bias and variance is true?
+
+To find out (in your own time), check out this notebook here for a discussion of "Double Descent"
+
+https://github.com/odsl-team/block-course-mar23-ML-excercises/blob/main/FurtherReadingDay1.ipynb
+
+
 * Evaluate the risk under the various trainings for the train and the test dataset
 * Plot the train and test risk as a function of the polynomial degree
