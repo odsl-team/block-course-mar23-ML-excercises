@@ -68,7 +68,7 @@ Plot the training and validation loss as a function of the training steps.
 
 At which point would you stop training? (You can also add logic to save the best validation loss model using `torch.save`)
 
-## Step 8Getting the ROC curve
+## Step 8: Getting the ROC curve
 
 Given that we have a trained model we can now look at its performance
 
