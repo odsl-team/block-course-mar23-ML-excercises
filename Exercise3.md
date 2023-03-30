@@ -95,5 +95,17 @@ loss = torch.nn.functional.cross_entropy(p,y)
 
 Use this model now to train your neural network to recognize the digit in these 28,28 images
 
+## Step 4 - evaluate on the test set
+
+Sample a digit from the independent test set via
+
+X,y = make_batch(N = 1, collection='test')
+
+* Visualize the example
+* Run your model and turn the logits into probabilities via `torch.nn.functional.softmax`
+* Is the answer correct?
+
+
+
 * Check out the following link, and try using the famour `inception_v3` model to process an image of your choice
 * https://pytorch.org/hub/pytorch_vision_inception_v3/
