@@ -1,6 +1,4 @@
-# Part 1
-
-# Training Convolutional Nets
+# Part 1 - Understanding Convlutions
 
 In this exercise we will look more into ConvNets
 
@@ -34,7 +32,7 @@ Create a `Conv2D` module with 1 input channel and 2 output channels with kernel 
 * https://pytorch.org/hub/pytorch_vision_inception_v3/
 
 
-# Part 2
+# Part 2 - Training Convolutional Nets
 
 ## Step 1 - Download the MNIST Dataset
 
