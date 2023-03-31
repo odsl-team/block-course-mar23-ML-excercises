@@ -10,7 +10,7 @@ The training goal is to make the reconstruction as close as possible to the orig
 Write an Autoencoder PyTorch module that has a latent space of dimension 2
 
 * a `encoder` submodule that is a MLP that can take `(N,28,28)` tensors and return "encoded" tensors of shape `(N,2)`
-* a `decoder` submodule that is also a MLP which 
+* a `decoder` submodule that is also a MLP which can take `(N,2)` tensors and return "decoded" tensors of shape `(N,28,28)`
 
 * a `forward()` method that takes a batch of MNIST images and returns a 2-tuple with 1) the encoded  values and 2)  the reconstructed images
 
